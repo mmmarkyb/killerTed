@@ -13,70 +13,48 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+For this Arduino project you will need to instal the following libraries:
 
-```
-Libraries to be added soon.
-```
+Adafruit DRV2605
+RFID-Master
+
+To install these libraries copy and paste the folders into the following folders Arduino/libraries/
+then re-start the Arduino editor.
+
+
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+For your development environment you will need an Arduino code editor, we suggest the official Arduino IDE from www.arduino.cc/en/Main/Software.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Please follow and build the included diagram using the below components. Once this is completed you will need to download the repository and install all the required libraries included in the Prerequisites section above. Open the masterTed-master file and upload to your Arduino.
+
+The included code is fully commented to help you change and add functionality.
+
+
+Enjoy your time with masterTed.
 
 ## Built With
 
 List components
 
-* 
-* 
-* 
-
-## Contributing
-
-
-## Versioning
-
+* 1 x Arduino Uno
+* 1 x LED
+* 1 x DRV2605L Haptic Controller
+* 1 x Vibration Motor
+* 1 x RFID-RC522 RFID Reader
+* 1 x Force sensing resistor
+* 1 8x8 hRed Dotmatrix
+* 2 x 74HC595 Shift registers
+* 1 x Large breadboard
 
 ## Authors
 
+Mark Brown - github.com/mmmarkyb
+Raluca Semenescu
+Alexander Moran
 
 ## License
 
@@ -84,6 +62,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Adafruit for the extensive documentation on all their products
