@@ -52,9 +52,9 @@ List components
 
 ## Authors
 
-Mark Brown - github.com/mmmarkyb
-Raluca Semenescu
-Alexander Moran
+* Mark Brown - github.com/mmmarkyb
+* Raluca Semenescu
+* Alexander Moran
 
 ## License
 
